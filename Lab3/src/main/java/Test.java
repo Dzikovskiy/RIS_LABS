@@ -18,7 +18,9 @@ public class Test {
         entityManager.persist(client);
         entityManager.getTransaction().commit();
 
+        entityManager.close();
         System.out.println("Id = "+ client.getIdClient());
-
+//session factory
+        //какие состояния может принимать client / persist / detached / transient
     }
 }
