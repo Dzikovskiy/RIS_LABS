@@ -7,12 +7,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ea9e7c53-e4ef-48b8-83f6-d368d67abc49" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_activemq_activemq_all_5_12_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/activemq-data/localhost/KahaDB/db-1.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/activemq-data/localhost/KahaDB/db.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/activemq-data/localhost/KahaDB/db.redo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/activemq-data/localhost/KahaDB/lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/file.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ConsumerMessageListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/JmsTopicExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Lab4_war_exploded/WEB-INF/classes/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Lab4_war_exploded/WEB-INF/classes/Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/META-INF/persistence.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab3.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Lab3.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,7 +38,12 @@
     <option name="HIDDEN_KINDS">
       <set />
     </option>
-    <expand />
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="PersistenceUnit/Hibernate" type="feb32156:DbDataSourceImpl" />
+      </path>
+    </expand>
     <select />
   </component>
   <component name="FileTemplateManagerImpl">
@@ -64,18 +74,22 @@
     <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1YiG6LuyBsKUoE1TqrFaZEpgvlu" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../tut-react-and-spring-data-rest-master" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.5463917" />
@@ -85,10 +99,18 @@
       <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Projects\RIS_LAB_3\Lab3\src\main\java" />
       <recent name="C:\Projects\RIS_LAB_4\Lab4\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Test">
+  <component name="RunManager" selected="Application.JmsTopicExample">
+    <configuration name="JmsTopicExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JmsTopicExample" />
+      <module name="Lab3" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Test" />
       <module name="Lab3" />
@@ -174,9 +196,11 @@
     <list>
       <item itemvalue="Application.Test" />
       <item itemvalue="Tomcat Server.Tomcat 9.0.30" />
+      <item itemvalue="Application.JmsTopicExample" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.JmsTopicExample" />
         <item itemvalue="Application.Test" />
       </list>
     </recent_temporary>
@@ -220,21 +244,28 @@
       <workItem from="1585597965449" duration="11000" />
       <workItem from="1586111341319" duration="1215000" />
       <workItem from="1586112757695" duration="17000" />
+      <workItem from="1586113291378" duration="9000" />
+      <workItem from="1586273742552" duration="209000" />
+      <workItem from="1586447286938" duration="353000" />
+      <workItem from="1586856945821" duration="127000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="361" y="72" width="1071" height="694" key="#Project_Structure" timestamp="1583752503706">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="361" y="72" width="1071" height="694" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1583752503706" />
-    <state x="361" y="72" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1583753255541">
+    <state x="368" y="77" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1586273948435">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="72" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1583753255541" />
+    <state x="368" y="77" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1586273948435" />
     <state x="400" y="102" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1583584382108">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -247,22 +278,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="168" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1583599150640" />
-    <state width="1493" height="292" key="GridCell.Tab.0.bottom" timestamp="1586112558613">
+    <state width="1493" height="284" key="GridCell.Tab.0.bottom" timestamp="1586857072897">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="292" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1586112558613" />
-    <state width="1493" height="292" key="GridCell.Tab.0.center" timestamp="1586112558613">
+    <state width="1493" height="284" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1586857072897" />
+    <state width="1493" height="284" key="GridCell.Tab.0.center" timestamp="1586857072893">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="292" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1586112558613" />
-    <state width="1493" height="292" key="GridCell.Tab.0.left" timestamp="1586112558613">
+    <state width="1493" height="284" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1586857072893" />
+    <state width="1493" height="284" key="GridCell.Tab.0.left" timestamp="1586857072893">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="292" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1586112558613" />
-    <state width="1493" height="292" key="GridCell.Tab.0.right" timestamp="1586112558613">
+    <state width="1493" height="284" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1586857072893" />
+    <state width="1493" height="284" key="GridCell.Tab.0.right" timestamp="1586857072897">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="292" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1586112558613" />
+    <state width="1493" height="284" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1586857072897" />
     <state width="1253" height="155" key="GridCell.Tab.1.bottom" timestamp="1585559279273">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -295,9 +326,9 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1253" height="155" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1585559279273" />
-    <state x="465" y="238" key="com.intellij.ide.util.TipDialog" timestamp="1585597966063">
+    <state x="465" y="238" key="com.intellij.ide.util.TipDialog" timestamp="1586856943604">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="465" y="238" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1585597966063" />
+    <state x="465" y="238" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1586856943604" />
   </component>
 </project>

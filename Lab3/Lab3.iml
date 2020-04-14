@@ -44,6 +44,7 @@
     <orderEntry type="library" name="Maven: org.apache.commons:commons-pool2:2.6.0" level="project" />
     <orderEntry type="library" name="Maven: org.apache.xbean:xbean-asm7-shaded:4.12" level="project" />
     <orderEntry type="library" name="Maven: org.eclipse.persistence:jakarta.persistence:2.2.3" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.activemq:activemq-all:5.12.0" level="project" />
     <orderEntry type="library" name="Maven: org.apache.openjpa:openjpa-persistence-jdbc:3.1.1" level="project" />
     <orderEntry type="library" name="Maven: org.apache.openjpa:openjpa-jdbc:3.1.1" level="project" />
     <orderEntry type="library" name="Maven: org.apache.openjpa:openjpa-kernel:3.1.1" level="project" />
