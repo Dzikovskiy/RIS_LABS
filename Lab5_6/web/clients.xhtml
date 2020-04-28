@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns:h="http://xmlns.jcp.org/jsf/html" xmlns:f="http://java.sun.com/jsf/core">
+
+<h:head>
+    <title>Customers</title>
+</h:head>
+
+<h:body>
+    <h:dataTable value="#{JSFManagedBean.clients}" var="client" border="2">
+        <h:column>
+            <f:facet name="header">Name</f:facet>
+            #{client.user_name}
+        </h:column>
+        <h:column>
+            <f:facet name="header">Address 1:</f:facet>
+            #{client.first_address}
+        </h:column>
+        <h:column>
+            <f:facet name="header">Address 2:</f:facet>
+            #{client.second_address}
+        </h:column>
+    </h:dataTable>
+</h:body>
+
+</html>

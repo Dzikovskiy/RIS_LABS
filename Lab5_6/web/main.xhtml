@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns:h="http://xmlns.jcp.org/jsf/html" xmlns:a="http://xmlns.jcp.org/jsf/passthrough"
+      xmlns:f="http://xmlns.jcp.org/jsf/core">
+
+<h:head>
+    <title>Title</title>
+</h:head>
+
+<h:form style="margin-top: 70px; margin-left: 150px">
+    <div>Create  </div>
+    <h:inputText required="true" requiredMessage="Fill the field" value="#{JSFManagedBean.client.user_name}" a:placeholder="Name"/>
+    <h:inputText required="true" requiredMessage="Fill the field" value="#{JSFManagedBean.client.first_address}"
+                 a:placeholder="Address 1"/>
+    <h:inputText required="true" requiredMessage="Fill the field" value="#{JSFManagedBean.client.second_address}"
+                 a:placeholder="Address 2"/>
+    <h:selectOneMenu value="#{JSFManagedBean.role}">
+        <f:selectItem itemValue="USER" itemLabel="USER" />
+        <f:selectItem itemValue="ADMIN" itemLabel="ADMIN" />
+    </h:selectOneMenu>
+    <h:commandButton style="margin-left: 30px" value="Add client" action="#{JSFManagedBean.addClient()}"/>
+</h:form>
+
+<h:form style="margin-top: 40px; margin-left: 150px">
+    <div>Delete  </div>
+    <h:inputText required="true" requiredMessage="Fill the field" value="#{JSFManagedBean.client.idClient}"
+                 a:placeholder="User id"/>
+    <h:commandButton style="margin-left: 30px" value="Delete client" action="#{JSFManagedBean.deleteClient()}"/>
+</h:form>
+
+
+<h:form style="margin-top: 40px; margin-left: 150px">
+    <div>Update  </div>
+    <h:inputText required="true" requiredMessage="Fill the field" value="#{JSFManagedBean.client.idClient}"
+                 a:placeholder="User id"/>
+    <h:inputText required="true" requiredMessage="Fill the field" value="#{JSFManagedBean.client.first_address}"
+                 a:placeholder="User first address"/>
+    <h:inputText required="true" requiredMessage="Fill the field" value="#{JSFManagedBean.client.second_address}"
+                 a:placeholder="User second address"/>
+    <h:inputText required="true" requiredMessage="Fill the field" value="#{JSFManagedBean.client.user_name}"
+                 a:placeholder="User name"/>
+    <h:selectOneMenu value="#{JSFManagedBean.role}">
+        <f:selectItem itemValue="USER" itemLabel="USER" />
+        <f:selectItem itemValue="ADMIN" itemLabel="ADMIN" />
+    </h:selectOneMenu>
+    <h:commandButton style=" margin-left: 30px" value="Update client" action="#{JSFManagedBean.updateClient()}"/>
+</h:form>
+
+<h:form style="margin-top: 40px; margin-left: 150px">
+    <div>Read  </div>
+    <h:commandButton  value="Show all clients" action="#{JSFManagedBean.getClientsPage()}"/>
+</h:form>
+
+<h:form style="margin-top: 40px; margin-left: 150px">
+    <div>Найти по адресу  </div>
+    <h:inputText required="true" requiredMessage="Fill the field" value="#{JSFManagedBean.client.first_address}"
+                 a:placeholder="User adress"/>
+    <h:commandButton style="margin-left: 30px" value="Найти клиента по адресу" action="#{JSFManagedBean.searchClient()}"/>
+</h:form>
+
+</html>
