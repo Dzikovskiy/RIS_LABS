@@ -1,2 +1,2 @@
-# RIS_LAB_3
- University lab with hibernate and servlet
+# RIS_LABS
+ University labs with hibernate, jpa, jsf, soap, spring and servlet
