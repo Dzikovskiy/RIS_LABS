@@ -23,6 +23,8 @@ public class ShopClient {
             System.out.println("1 - add item");
             System.out.println("2 - search by name");
             System.out.println("3 - search by price");
+            System.out.println("4 - get all");
+            System.out.println("5 - get prices sum");
             line = in.readLine();
 
             if (line.equals("1")) {
@@ -46,7 +48,14 @@ public class ShopClient {
                 price = Integer.parseInt(in.readLine());
                 System.out.println(shop.searchByPrice(price));
 
+            } else if (line.equals("4")) {
+                System.out.println(shop.getAll());
+
+            } else if (line.equals("5")) {
+                System.out.println("Sum of all prices: " + shop.getSum());
+
             }
+
 
         }
 

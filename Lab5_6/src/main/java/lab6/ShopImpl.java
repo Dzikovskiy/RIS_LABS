@@ -39,6 +39,25 @@ public class ShopImpl implements Shop {
 		return "nothing found";
 	}
 
+    @Override
+    public String getAll() {
+       String result = "";
+        for (Item item : itemArr) {
+            result = result + "\n" + item.getName();
+        }
+        return result;
+    }
+
+    @Override
+    public int getSum(){
+        int sum = 0;
+        for (Item item : itemArr) {
+            sum+= item.getPrice();
+        }
+       return sum;
+    }
+
+
 
     private class Item {
 

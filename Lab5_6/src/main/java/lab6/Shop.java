@@ -13,5 +13,7 @@ public interface Shop {
 	@WebMethod String addItem(String name, int price);
 	@WebMethod String searchByName(String name);
 	@WebMethod String searchByPrice(int price);
+	@WebMethod String getAll();
+	@WebMethod int getSum();
  
 }
